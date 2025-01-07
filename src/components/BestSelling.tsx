@@ -1,9 +1,9 @@
 import Link from "next/link";
 import ProductsCard from "./ProductsCard";
-import BS1 from '../../public/images/1.png'
-import BS2 from '../../public/images/2.png'
-import BS3 from '../../public/images/3.png'
-import BS4 from '../../public/images/4.png'
+import BS1 from '/images/1.png'
+import BS2 from '/images/2.png'
+import BS3 from '/images/3.png'
+import BS4 from '/images/4.png'
 
 function BestSelling() {
   return (
