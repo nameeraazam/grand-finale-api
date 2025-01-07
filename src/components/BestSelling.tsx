@@ -1,9 +1,6 @@
+
 import Link from "next/link";
 import ProductsCard from "./ProductsCard";
-import BS1 from '/images/1.png'
-import BS2 from '/images/2.png'
-import BS3 from '/images/3.png'
-import BS4 from '/images/4.png'
 
 function BestSelling() {
   return (
@@ -24,7 +21,7 @@ function BestSelling() {
 
       <div className="flex flex-wrap gap-5 justify-center sm:justify-between mt-8">
         <ProductsCard
-          image={BS1}
+          image="/images/bestSelling/1.png"  // Direct path from public folder
           productAlt="coat"
           title="The North Coat"
           price={260}
@@ -33,7 +30,7 @@ function BestSelling() {
           reviewCount={65}
         />
         <ProductsCard
-          image={BS2}
+          image="/images/bestSelling/2.png"  // Direct path from public folder
           productAlt="bag"
           title="Gucci duffle bag"
           price={960}
@@ -42,7 +39,7 @@ function BestSelling() {
           reviewCount={65}
         />
         <ProductsCard
-          image={BS3}
+          image="/images/bestSelling/3.png"  // Direct path from public folder
           productAlt="cpu cooler"
           title="rgb liquid cpu cooler"
           price={160}
@@ -51,7 +48,7 @@ function BestSelling() {
           reviewCount={65}
         />
         <ProductsCard
-          image={BS4}
+          image="/images/bestSelling/4.png"  // Direct path from public folder
           productAlt="book shelf"
           title="Small BookShelf"
           price={360}
